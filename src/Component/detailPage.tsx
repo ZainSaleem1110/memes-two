@@ -33,8 +33,8 @@ function DetailPage() {
                             <Button className="btn colorBtn">Remix this Meme</Button>
                         </Box>
                     </Box>
-                    <Box className="w-[100%] mt-5 flex flex-wrap gap-8">
-                        <Box className=" max-w-[700px] min-w-[300px]">
+                    <Box className="w-[100%] mt-5 flex lg:flex-row flex-col gap-8">
+                        <Box className="max-w-[700px] min-w-[300px]">
                             <Box className="h-[490px] w-[100%] bg-[#F9FAFB]">
                                 <img src={PostImg} className="w-[100%] h-[100%]" alt="" />
                             </Box>
@@ -50,7 +50,7 @@ function DetailPage() {
                                 </Box>
                             </Box>
                         </Box>
-                        <Box className="h-[683px] xl:w-[550px] max-w-[700px] min-w-[300px] border">
+                        <Box className="h-[683px] max-w-[700px] min-w-[300px] border">
 
                         </Box>
                     </Box>
