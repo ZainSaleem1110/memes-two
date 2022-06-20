@@ -53,7 +53,7 @@ function DetailPage() {
                                 </Box>
                             </Box>
                         </Box>
-                        <Box className="h-[683px] lg:w-[40%] border rounded-lg">
+                        <Box className="lg:w-[40%] border rounded-lg">
                             <Box className="pt-1 px-4">
                                 <span className="text-[14px]">24 comments</span>
                                 <Box className="flex justify-between items-center mt-5">
@@ -66,7 +66,7 @@ function DetailPage() {
                                     </Button>
                                 </Box>
                             </Box>
-                            <Box className="pt-5 mt-4 pl-4 bg-[#EAEAEA] h-[581px] overflow-y-auto">
+                            <Box className="py-5 mt-4 pl-4 bg-[#EAEAEA] h-[581px] overflow-y-auto">
                                 <Box className="flex gap-x-3">
                                     <img src={ProfilePic} className="w-[32px] h-[32px]" alt="" />
                                     <Box>
