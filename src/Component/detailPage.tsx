@@ -13,6 +13,15 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const tabs = ["#bffs", "#shocking", "#veryfunny", "#workfromhome", "#zoom"]
 
+const handleClick=()=>{
+ let ReplyBox= document.getElementById("addAnimation")
+ ReplyBox?.classList.toggle("animation")
+}
+const handleClick2=()=>{
+    let ReplyBox= document.getElementById("addAnimation2")
+    ReplyBox?.classList.toggle("animation")
+   }
+
 function DetailPage() {
     return (
         <>
@@ -73,19 +82,19 @@ function DetailPage() {
                                         <span className="font-medium">bearcubsohmy</span>
                                         <span className="block mt-3 sm:pr-10 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A maecenas nullam morbi rhoncus, non.</span>
                                         <Box className="flex items-center sm:gap-x-5 gap-x-2 mt-6 text-[#2066C7]">
-                                            <KeyboardArrowDownIcon />
+                                            <KeyboardArrowDownIcon onClick={handleClick} />
                                             <span className="sm:text-[14px] text-[12px] font-bold">view 7 replies</span>
                                             <button className="w-[87px] h-[32px] flex justify-center items-center text-[14px] font-medium border border-[#5099E3] text-[#5099E3] rounded-full">Reply</button>
                                         </Box>
-                                        <Box className="bg-white rounded-l-lg pl-4 py-4 mt-4">
-                                            <Box className="flex gap-x-3">
+                                        <Box className="bg-white rounded-l-lg pl-4 mt-4 overflow-hidden replyBox" id="addAnimation">
+                                            <Box className="flex gap-x-3 pt-4">
                                                 <img src={ProfilePic} className="w-[32px] h-[32px]" alt="" />
                                                 <Box>
                                                     <span className="font-medium">bearcubsohmy</span>
                                                     <span className="block mt-2 sm:pr-10 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A maecenas nullam morbi rhoncus, non.</span>
                                                 </Box>
                                             </Box>
-                                            <Box className="flex gap-x-3 mt-8">
+                                            <Box className="flex gap-x-3 mt-8 pb-4">
                                                 <img src={ProfilePic} className="w-[32px] h-[32px]" alt="" />
                                                 <Box>
                                                     <span className="font-medium">bearcubsohmy</span>
@@ -101,19 +110,19 @@ function DetailPage() {
                                         <span className="font-medium">bearcubsohmy</span>
                                         <span className="block mt-3 sm:pr-10 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A maecenas nullam morbi rhoncus, non.</span>
                                         <Box className="flex items-center sm:gap-x-5 gap-x-2 mt-6 text-[#2066C7]">
-                                            <KeyboardArrowDownIcon />
+                                            <KeyboardArrowDownIcon onClick={handleClick2} />
                                             <span className="sm:text-[14px] text-[12px] font-bold">view 7 replies</span>
                                             <button className="w-[87px] h-[32px] flex justify-center items-center text-[14px] font-medium border border-[#5099E3] text-[#5099E3] rounded-full">Reply</button>
                                         </Box>
-                                        <Box className="bg-white rounded-l-lg pl-4 py-4 mt-4">
-                                            <Box className="flex gap-x-3">
+                                        <Box className="bg-white rounded-l-lg pl-4 mt-4 overflow-hidden replyBox" id="addAnimation2">
+                                            <Box className="flex gap-x-3 pt-4">
                                                 <img src={ProfilePic} className="w-[32px] h-[32px]" alt="" />
                                                 <Box>
                                                     <span className="font-medium">bearcubsohmy</span>
                                                     <span className="block mt-2 pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A maecenas nullam morbi rhoncus, non.</span>
                                                 </Box>
                                             </Box>
-                                            <Box className="flex gap-x-3 mt-8">
+                                            <Box className="flex gap-x-3 mt-8 pb-4">
                                                 <img src={ProfilePic} className="w-[32px] h-[32px]" alt="" />
                                                 <Box>
                                                     <span className="font-medium">bearcubsohmy</span>

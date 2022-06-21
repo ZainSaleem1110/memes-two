@@ -105,3 +105,12 @@ body{
     }
     
 }
+
+.replyBox{
+    height: 0px;
+}
+
+.animation {
+    height: fit-content;
+    transition: 2s !important;
+}
