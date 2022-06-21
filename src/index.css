@@ -108,9 +108,10 @@ body{
 
 .replyBox{
     height: 0px;
+    transition: 2s !important;
 }
 
 .animation {
-    height: fit-content;
+    height: 65%;
     transition: 2s !important;
 }
