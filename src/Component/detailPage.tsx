@@ -83,7 +83,7 @@ function DetailPage() {
                                         <span className="block mt-3 sm:pr-10 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A maecenas nullam morbi rhoncus, non.</span>
                                         <Box className="flex items-center sm:gap-x-5 gap-x-2 mt-6 text-[#2066C7]">
                                             <KeyboardArrowDownIcon onClick={handleClick} />
-                                            <span className="sm:text-[14px] text-[12px] font-bold">view 7 replies</span>
+                                            <span className="sm:text-[14px] text-[12px] font-bold" onClick={handleClick}>view 7 replies</span>
                                             <button className="w-[87px] h-[32px] flex justify-center items-center text-[14px] font-medium border border-[#5099E3] text-[#5099E3] rounded-full">Reply</button>
                                         </Box>
                                         <Box className="bg-white rounded-l-lg pl-4 mt-4 overflow-hidden replyBox" id="addAnimation">
@@ -111,7 +111,7 @@ function DetailPage() {
                                         <span className="block mt-3 sm:pr-10 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A maecenas nullam morbi rhoncus, non.</span>
                                         <Box className="flex items-center sm:gap-x-5 gap-x-2 mt-6 text-[#2066C7]">
                                             <KeyboardArrowDownIcon onClick={handleClick2} />
-                                            <span className="sm:text-[14px] text-[12px] font-bold">view 7 replies</span>
+                                            <span className="sm:text-[14px] text-[12px] font-bold" onClick={handleClick2}>view 7 replies</span>
                                             <button className="w-[87px] h-[32px] flex justify-center items-center text-[14px] font-medium border border-[#5099E3] text-[#5099E3] rounded-full">Reply</button>
                                         </Box>
                                         <Box className="bg-white rounded-l-lg pl-4 mt-4 overflow-hidden replyBox" id="addAnimation2">
